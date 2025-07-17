@@ -1,0 +1,332 @@
+2025-06-24 11:23:30,412 - INFO - Starting data ingestion...
+2025-06-24 11:23:30,412 - INFO - Fetching all game IDs for 2024-25
+2025-06-24 11:23:30,412 - INFO - Getting game IDs for season type: Regular Season
+2025-06-24 11:23:34,002 - INFO - Getting game IDs for season type: Playoffs
+2025-06-24 11:23:37,247 - INFO - Total unique games found: 1314
+2025-06-24 11:23:37,534 - INFO - 
+Processing game 1/1314: 0022400702
+2025-06-24 11:23:37,534 - INFO - Fetching boxscore data for game 0022400702
+2025-06-24 11:23:44,921 - INFO - 
+Processing game 2/1314: 0022400880
+2025-06-24 11:23:44,922 - INFO - Fetching boxscore data for game 0022400880
+2025-06-24 11:23:55,428 - INFO - 
+Processing game 3/1314: 0022400857
+2025-06-24 11:23:55,428 - INFO - Fetching boxscore data for game 0022400857
+2025-06-24 11:24:01,688 - INFO - 
+Processing game 4/1314: 0022400298
+2025-06-24 11:24:01,689 - INFO - Fetching boxscore data for game 0022400298
+2025-06-24 11:24:07,687 - INFO - 
+Processing game 5/1314: 0022400342
+2025-06-24 11:24:07,688 - INFO - Fetching boxscore data for game 0022400342
+2025-06-24 11:24:15,036 - INFO - 
+Processing game 6/1314: 0022400414
+2025-06-24 11:24:15,036 - INFO - Fetching boxscore data for game 0022400414
+2025-06-24 11:24:21,261 - INFO - 
+Processing game 7/1314: 0022400422
+2025-06-24 11:24:21,262 - INFO - Fetching boxscore data for game 0022400422
+2025-06-24 11:24:27,661 - INFO - 
+Processing game 8/1314: 0022400781
+2025-06-24 11:24:27,661 - INFO - Fetching boxscore data for game 0022400781
+2025-06-24 11:24:35,901 - INFO - 
+Processing game 9/1314: 0022400176
+2025-06-24 11:24:35,902 - INFO - Fetching boxscore data for game 0022400176
+2025-06-24 11:24:42,856 - INFO - 
+Processing game 10/1314: 0022400672
+2025-06-24 11:24:42,856 - INFO - Fetching boxscore data for game 0022400672
+2025-06-24 11:24:50,132 - INFO - 
+Processing game 11/1314: 0022401028
+2025-06-24 11:24:50,133 - INFO - Fetching boxscore data for game 0022401028
+2025-06-24 11:24:56,728 - INFO - 
+Processing game 12/1314: 0022400493
+2025-06-24 11:24:56,729 - INFO - Fetching boxscore data for game 0022400493
+2025-06-24 11:25:04,474 - INFO - 
+Processing game 13/1314: 0022400313
+2025-06-24 11:25:04,474 - INFO - Fetching boxscore data for game 0022400313
+2025-06-24 11:25:11,125 - INFO - 
+Processing game 14/1314: 0022400684
+2025-06-24 11:25:11,126 - INFO - Fetching boxscore data for game 0022400684
+2025-06-24 11:25:18,492 - INFO - 
+Processing game 15/1314: 0022400035
+2025-06-24 11:25:18,493 - INFO - Fetching boxscore data for game 0022400035
+2025-06-24 11:25:24,881 - INFO - 
+Processing game 16/1314: 0022400363
+2025-06-24 11:25:24,882 - INFO - Fetching boxscore data for game 0022400363
+2025-06-24 11:25:31,828 - INFO - 
+Processing game 17/1314: 0042400135
+2025-06-24 11:25:31,828 - INFO - Fetching boxscore data for game 0042400135
+2025-06-24 11:25:38,841 - INFO - 
+Processing game 18/1314: 0022400760
+2025-06-24 11:25:38,842 - INFO - Fetching boxscore data for game 0022400760
+2025-06-24 11:25:46,382 - INFO - 
+Processing game 19/1314: 0022400901
+2025-06-24 11:25:46,382 - INFO - Fetching boxscore data for game 0022400901
+2025-06-24 11:25:52,577 - INFO - 
+Processing game 20/1314: 0022400260
+2025-06-24 11:25:52,577 - INFO - Fetching boxscore data for game 0022400260
+2025-06-24 11:25:58,986 - INFO - 
+Processing game 21/1314: 0022400872
+2025-06-24 11:25:58,986 - INFO - Fetching boxscore data for game 0022400872
+2025-06-24 11:26:05,463 - INFO - 
+Processing game 22/1314: 0022400296
+2025-06-24 11:26:05,464 - INFO - Fetching boxscore data for game 0022400296
+2025-06-24 11:26:11,789 - INFO - 
+Processing game 23/1314: 0022401228
+2025-06-24 11:26:11,789 - INFO - Fetching boxscore data for game 0022401228
+2025-06-24 11:26:17,976 - INFO - 
+Processing game 24/1314: 0022400282
+2025-06-24 11:26:17,976 - INFO - Fetching boxscore data for game 0022400282
+2025-06-24 11:26:24,359 - INFO - 
+Processing game 25/1314: 0022400016
+2025-06-24 11:26:24,360 - INFO - Fetching boxscore data for game 0022400016
+2025-06-24 11:26:30,460 - INFO - 
+Processing game 26/1314: 0022401027
+2025-06-24 11:26:30,460 - INFO - Fetching boxscore data for game 0022401027
+2025-06-24 11:26:36,823 - INFO - 
+Processing game 27/1314: 0022400328
+2025-06-24 11:26:36,824 - INFO - Fetching boxscore data for game 0022400328
+2025-06-24 11:26:44,011 - INFO - 
+Processing game 28/1314: 0022401169
+2025-06-24 11:26:44,011 - INFO - Fetching boxscore data for game 0022401169
+2025-06-24 11:26:50,294 - INFO - 
+Processing game 29/1314: 0022400982
+2025-06-24 11:26:50,294 - INFO - Fetching boxscore data for game 0022400982
+2025-06-24 11:26:56,772 - INFO - 
+Processing game 30/1314: 0022400171
+2025-06-24 11:26:56,772 - INFO - Fetching boxscore data for game 0022400171
+2025-06-24 11:27:04,115 - INFO - 
+Processing game 31/1314: 0022400291
+2025-06-24 11:27:04,115 - INFO - Fetching boxscore data for game 0022400291
+2025-06-24 11:27:11,031 - INFO - 
+Processing game 32/1314: 0022401100
+2025-06-24 11:27:11,032 - INFO - Fetching boxscore data for game 0022401100
+2025-06-24 11:27:17,302 - INFO - 
+Processing game 33/1314: 0022400803
+2025-06-24 11:27:17,303 - INFO - Fetching boxscore data for game 0022400803
+2025-06-24 11:27:24,310 - INFO - 
+Processing game 34/1314: 0022400086
+2025-06-24 11:27:24,311 - INFO - Fetching boxscore data for game 0022400086
+2025-06-24 11:27:31,412 - INFO - 
+Processing game 35/1314: 0022401086
+2025-06-24 11:27:31,413 - INFO - Fetching boxscore data for game 0022401086
+2025-06-24 11:27:38,481 - INFO - 
+Processing game 36/1314: 0022400978
+2025-06-24 11:27:38,482 - INFO - Fetching boxscore data for game 0022400978
+2025-06-24 11:27:44,546 - INFO - 
+Processing game 37/1314: 0022400488
+2025-06-24 11:27:44,547 - INFO - Fetching boxscore data for game 0022400488
+2025-06-24 11:27:50,618 - INFO - 
+Processing game 38/1314: 0022400791
+2025-06-24 11:27:50,619 - INFO - Fetching boxscore data for game 0022400791
+2025-06-24 11:27:58,053 - INFO - 
+Processing game 39/1314: 0022400600
+2025-06-24 11:27:58,054 - INFO - Fetching boxscore data for game 0022400600
+2025-06-24 11:28:04,270 - INFO - 
+Processing game 40/1314: 0022400546
+2025-06-24 11:28:04,270 - INFO - Fetching boxscore data for game 0022400546
+2025-06-24 11:28:10,400 - INFO - 
+Processing game 41/1314: 0022400415
+2025-06-24 11:28:10,400 - INFO - Fetching boxscore data for game 0022400415
+2025-06-24 11:28:16,724 - INFO - 
+Processing game 42/1314: 0022400134
+2025-06-24 11:28:16,725 - INFO - Fetching boxscore data for game 0022400134
+2025-06-24 11:28:24,155 - INFO - 
+Processing game 43/1314: 0022401213
+2025-06-24 11:28:24,155 - INFO - Fetching boxscore data for game 0022401213
+2025-06-24 11:28:30,534 - INFO - 
+Processing game 44/1314: 0022400659
+2025-06-24 11:28:30,534 - INFO - Fetching boxscore data for game 0022400659
+2025-06-24 11:28:37,658 - INFO - 
+Processing game 45/1314: 0022400639
+2025-06-24 11:28:37,658 - INFO - Fetching boxscore data for game 0022400639
+2025-06-24 11:28:45,044 - INFO - 
+Processing game 46/1314: 0022400064
+2025-06-24 11:28:45,045 - INFO - Fetching boxscore data for game 0022400064
+2025-06-24 11:28:52,415 - INFO - 
+Processing game 47/1314: 0022400604
+2025-06-24 11:28:52,415 - INFO - Fetching boxscore data for game 0022400604
+2025-06-24 11:28:58,630 - INFO - 
+Processing game 48/1314: 0022400085
+2025-06-24 11:28:58,630 - INFO - Fetching boxscore data for game 0022400085
+2025-06-24 11:29:05,600 - INFO - 
+Processing game 49/1314: 0022401020
+2025-06-24 11:29:05,600 - INFO - Fetching boxscore data for game 0022401020
+2025-06-24 11:29:11,732 - INFO - 
+Processing game 50/1314: 0022400748
+2025-06-24 11:29:11,732 - INFO - Fetching boxscore data for game 0022400748
+2025-06-24 11:29:19,511 - INFO - 
+Processing game 51/1314: 0022401041
+2025-06-24 11:29:19,511 - INFO - Fetching boxscore data for game 0022401041
+2025-06-24 11:29:25,989 - INFO - 
+Processing game 52/1314: 0022401029
+2025-06-24 11:29:25,990 - INFO - Fetching boxscore data for game 0022401029
+2025-06-24 11:29:32,051 - INFO - 
+Processing game 53/1314: 0022400512
+2025-06-24 11:29:32,051 - INFO - Fetching boxscore data for game 0022400512
+2025-06-24 11:29:39,578 - INFO - 
+Processing game 54/1314: 0022400952
+2025-06-24 11:29:39,579 - INFO - Fetching boxscore data for game 0022400952
+2025-06-24 11:29:45,665 - INFO - 
+Processing game 55/1314: 0022400976
+2025-06-24 11:29:45,666 - INFO - Fetching boxscore data for game 0022400976
+2025-06-24 11:29:51,950 - INFO - 
+Processing game 56/1314: 0022400876
+2025-06-24 11:29:51,950 - INFO - Fetching boxscore data for game 0022400876
+2025-06-24 11:29:58,211 - INFO - 
+Processing game 57/1314: 0022400759
+2025-06-24 11:29:58,211 - INFO - Fetching boxscore data for game 0022400759
+2025-06-24 11:30:05,733 - INFO - 
+Processing game 58/1314: 0022400998
+2025-06-24 11:30:05,733 - INFO - Fetching boxscore data for game 0022400998
+2025-06-24 11:30:12,334 - INFO - 
+Processing game 59/1314: 0022400986
+2025-06-24 11:30:12,335 - INFO - Fetching boxscore data for game 0022400986
+2025-06-24 11:30:19,273 - INFO - 
+Processing game 60/1314: 0022401042
+2025-06-24 11:30:19,274 - INFO - Fetching boxscore data for game 0022401042
+2025-06-24 11:30:25,982 - INFO - 
+Processing game 61/1314: 0022401186
+2025-06-24 11:30:25,983 - INFO - Fetching boxscore data for game 0022401186
+2025-06-24 11:30:32,219 - INFO - 
+Processing game 62/1314: 0022400192
+2025-06-24 11:30:32,219 - INFO - Fetching boxscore data for game 0022400192
+2025-06-24 11:30:39,682 - INFO - 
+Processing game 63/1314: 0022400439
+2025-06-24 11:30:39,682 - INFO - Fetching boxscore data for game 0022400439
+2025-06-24 11:30:46,837 - INFO - 
+Processing game 64/1314: 0022400339
+2025-06-24 11:30:46,838 - INFO - Fetching boxscore data for game 0022400339
+2025-06-24 11:30:53,246 - INFO - 
+Processing game 65/1314: 0022400674
+2025-06-24 11:30:53,247 - INFO - Fetching boxscore data for game 0022400674
+2025-06-24 11:31:00,302 - INFO - 
+Processing game 66/1314: 0022400716
+2025-06-24 11:31:00,302 - INFO - Fetching boxscore data for game 0022400716
+2025-06-24 11:31:07,585 - INFO - 
+Processing game 67/1314: 0022400733
+2025-06-24 11:31:07,586 - INFO - Fetching boxscore data for game 0022400733
+2025-06-24 11:31:15,449 - INFO - 
+Processing game 68/1314: 0022401055
+2025-06-24 11:31:15,449 - INFO - Fetching boxscore data for game 0022401055
+2025-06-24 11:31:21,704 - INFO - 
+Processing game 69/1314: 0022400774
+2025-06-24 11:31:21,704 - INFO - Fetching boxscore data for game 0022400774
+2025-06-24 11:31:29,291 - INFO - 
+Processing game 70/1314: 0022400608
+2025-06-24 11:31:29,292 - INFO - Fetching boxscore data for game 0022400608
+2025-06-24 11:31:35,629 - INFO - 
+Processing game 71/1314: 0022400180
+2025-06-24 11:31:35,629 - INFO - Fetching boxscore data for game 0022400180
+2025-06-24 11:31:42,557 - INFO - 
+Processing game 72/1314: 0022400949
+2025-06-24 11:31:42,557 - INFO - Fetching boxscore data for game 0022400949
+2025-06-24 11:31:48,860 - INFO - 
+Processing game 73/1314: 0022400520
+2025-06-24 11:31:48,861 - INFO - Fetching boxscore data for game 0022400520
+2025-06-24 11:31:55,304 - INFO - 
+Processing game 74/1314: 0022401118
+2025-06-24 11:31:55,304 - INFO - Fetching boxscore data for game 0022401118
+2025-06-24 11:32:01,567 - INFO - 
+Processing game 75/1314: 0022400074
+2025-06-24 11:32:01,568 - INFO - Fetching boxscore data for game 0022400074
+2025-06-24 11:32:08,655 - INFO - 
+Processing game 76/1314: 0022400076
+2025-06-24 11:32:08,656 - INFO - Fetching boxscore data for game 0022400076
+2025-06-24 11:32:21,624 - INFO - 
+Processing game 77/1314: 0022400897
+2025-06-24 11:32:21,625 - INFO - Fetching boxscore data for game 0022400897
+2025-06-24 11:32:27,714 - INFO - 
+Processing game 78/1314: 0022400622
+2025-06-24 11:32:27,715 - INFO - Fetching boxscore data for game 0022400622
+2025-06-24 11:32:33,972 - INFO - 
+Processing game 79/1314: 0022401119
+2025-06-24 11:32:33,972 - INFO - Fetching boxscore data for game 0022401119
+2025-06-24 11:32:40,294 - INFO - 
+Processing game 80/1314: 0042400174
+2025-06-24 11:32:40,295 - INFO - Fetching boxscore data for game 0042400174
+2025-06-24 11:32:47,479 - INFO - 
+Processing game 81/1314: 0042400226
+2025-06-24 11:32:47,479 - INFO - Fetching boxscore data for game 0042400226
+2025-06-24 11:32:54,997 - INFO - 
+Processing game 82/1314: 0022400617
+2025-06-24 11:32:54,997 - INFO - Fetching boxscore data for game 0022400617
+2025-06-24 11:33:01,479 - INFO - 
+Processing game 83/1314: 0022400030
+2025-06-24 11:33:01,479 - INFO - Fetching boxscore data for game 0022400030
+2025-06-24 11:33:08,406 - INFO - 
+Processing game 84/1314: 0022400472
+2025-06-24 11:33:08,407 - INFO - Fetching boxscore data for game 0022400472
+2025-06-24 11:33:15,071 - INFO - 
+Processing game 85/1314: 0022400825
+2025-06-24 11:33:15,072 - INFO - Fetching boxscore data for game 0022400825
+2025-06-24 11:33:22,522 - INFO - 
+Processing game 86/1314: 0022400105
+2025-06-24 11:33:22,523 - INFO - Fetching boxscore data for game 0022400105
+2025-06-24 11:33:29,859 - INFO - 
+Processing game 87/1314: 0022401156
+2025-06-24 11:33:29,860 - INFO - Fetching boxscore data for game 0022401156
+2025-06-24 11:33:36,023 - INFO - 
+Processing game 88/1314: 0022400891
+2025-06-24 11:33:36,024 - INFO - Fetching boxscore data for game 0022400891
+2025-06-24 11:33:43,182 - INFO - 
+Processing game 89/1314: 0022400120
+2025-06-24 11:33:43,183 - INFO - Fetching boxscore data for game 0022400120
+2025-06-24 11:33:50,140 - INFO - 
+Processing game 90/1314: 0022400813
+2025-06-24 11:33:50,141 - INFO - Fetching boxscore data for game 0022400813
+2025-06-24 11:33:57,263 - INFO - 
+Processing game 91/1314: 0022400188
+2025-06-24 11:33:57,264 - INFO - Fetching boxscore data for game 0022400188
+2025-06-24 11:34:04,303 - INFO - 
+Processing game 92/1314: 0022400615
+2025-06-24 11:34:04,303 - INFO - Fetching boxscore data for game 0022400615
+2025-06-24 11:34:10,651 - INFO - 
+Processing game 93/1314: 0022400851
+2025-06-24 11:34:10,652 - INFO - Fetching boxscore data for game 0022400851
+2025-06-24 11:34:20,025 - INFO - 
+Processing game 94/1314: 0042400302
+2025-06-24 11:34:20,025 - INFO - Fetching boxscore data for game 0042400302
+2025-06-24 11:34:26,599 - INFO - 
+Processing game 95/1314: 0022400194
+2025-06-24 11:34:26,599 - INFO - Fetching boxscore data for game 0022400194
+2025-06-24 11:34:33,710 - INFO - 
+Processing game 96/1314: 0022400941
+2025-06-24 11:34:33,710 - INFO - Fetching boxscore data for game 0022400941
+2025-06-24 11:34:48,526 - INFO - 
+Processing game 97/1314: 0022400681
+2025-06-24 11:34:48,526 - INFO - Fetching boxscore data for game 0022400681
+2025-06-24 11:34:55,629 - INFO - 
+Processing game 98/1314: 0022400287
+2025-06-24 11:34:55,630 - INFO - Fetching boxscore data for game 0022400287
+2025-06-24 11:35:01,716 - INFO - 
+Processing game 99/1314: 0022400806
+2025-06-24 11:35:01,717 - INFO - Fetching boxscore data for game 0022400806
+2025-06-24 11:35:08,937 - INFO - 
+Processing game 100/1314: 0022401173
+2025-06-24 11:35:08,937 - INFO - Fetching boxscore data for game 0022401173
+2025-06-24 11:35:15,318 - INFO - 
+Processing game 101/1314: 0022400970
+2025-06-24 11:35:15,318 - INFO - Fetching boxscore data for game 0022400970
+2025-06-24 11:35:45,332 - ERROR - Error fetching boxscore for game 0022400970: HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+2025-06-24 11:35:45,334 - INFO - 
+Processing game 102/1314: 0042400122
+2025-06-24 11:35:45,334 - INFO - Fetching boxscore data for game 0042400122
+2025-06-24 11:36:15,568 - ERROR - Error fetching boxscore for game 0042400122: HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+2025-06-24 11:36:15,569 - INFO - 
+Processing game 103/1314: 0022400500
+2025-06-24 11:36:15,570 - INFO - Fetching boxscore data for game 0022400500
+2025-06-24 11:36:45,614 - ERROR - Error fetching boxscore for game 0022400500: HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+2025-06-24 11:36:45,616 - INFO - 
+Processing game 104/1314: 0022400948
+2025-06-24 11:36:45,616 - INFO - Fetching boxscore data for game 0022400948
+2025-06-24 11:37:15,668 - ERROR - Error fetching boxscore for game 0022400948: HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+2025-06-24 11:37:15,669 - INFO - 
+Processing game 105/1314: 0022401151
+2025-06-24 11:37:15,669 - INFO - Fetching boxscore data for game 0022401151
+2025-06-24 11:37:45,711 - ERROR - Error fetching boxscore for game 0022401151: HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+2025-06-24 11:37:45,712 - INFO - 
+Processing game 106/1314: 0022400786
+2025-06-24 11:37:45,713 - INFO - Fetching boxscore data for game 0022400786
+2025-06-24 11:38:15,764 - ERROR - Error fetching boxscore for game 0022400786: HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=30)
+2025-06-24 11:38:15,766 - INFO - 
+Processing game 107/1314: 0022400795
+2025-06-24 11:38:15,767 - INFO - Fetching boxscore data for game 0022400795

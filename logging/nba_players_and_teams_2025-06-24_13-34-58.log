@@ -1,0 +1,9 @@
+2025-06-24 13:34:58,433 - INFO - Starting data ingestion...
+2025-06-24 13:34:58,435 - INFO - Fetching all game IDs for 2024-25
+2025-06-24 13:34:58,435 - INFO - Getting game IDs for season type: Regular Season
+2025-06-24 13:35:00,618 - INFO - Getting game IDs for season type: Playoffs
+2025-06-24 13:35:02,432 - INFO - Total unique games found: 1314
+2025-06-24 13:35:02,433 - INFO - Processing chunk 1/14 (100 games)
+2025-06-24 13:35:02,791 - INFO - Fetching boxscore data for game 0022401198
+2025-06-24 13:35:07,649 - INFO - Fetching boxscore data for game 0022401204
+2025-06-24 13:35:13,069 - INFO - Fetching boxscore data for game 0022400726

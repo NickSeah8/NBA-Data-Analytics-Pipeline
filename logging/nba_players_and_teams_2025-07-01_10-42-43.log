@@ -1,0 +1,28 @@
+2025-07-01 10:42:43,110 - INFO - Starting RERUN_off_checkpoints script...
+2025-07-01 10:42:43,111 - INFO - Checking for existing boxscore checkpoint files to identify processed game IDs...
+2025-07-01 10:42:43,148 - INFO - Loaded 94 game IDs from boxscore_traditional_chunk_1.csv
+2025-07-01 10:42:43,161 - INFO - Loaded 76 game IDs from boxscore_traditional_chunk_10.csv
+2025-07-01 10:42:43,172 - INFO - Loaded 79 game IDs from boxscore_traditional_chunk_11.csv
+2025-07-01 10:42:43,185 - INFO - Loaded 98 game IDs from boxscore_traditional_chunk_12.csv
+2025-07-01 10:42:43,198 - INFO - Loaded 83 game IDs from boxscore_traditional_chunk_13.csv
+2025-07-01 10:42:43,211 - INFO - Loaded 87 game IDs from boxscore_traditional_chunk_2.csv
+2025-07-01 10:42:43,222 - INFO - Loaded 78 game IDs from boxscore_traditional_chunk_3.csv
+2025-07-01 10:42:43,233 - INFO - Loaded 88 game IDs from boxscore_traditional_chunk_4.csv
+2025-07-01 10:42:43,245 - INFO - Loaded 87 game IDs from boxscore_traditional_chunk_5.csv
+2025-07-01 10:42:43,257 - INFO - Loaded 78 game IDs from boxscore_traditional_chunk_6.csv
+2025-07-01 10:42:43,268 - INFO - Loaded 83 game IDs from boxscore_traditional_chunk_7.csv
+2025-07-01 10:42:43,280 - INFO - Loaded 89 game IDs from boxscore_traditional_chunk_8.csv
+2025-07-01 10:42:43,302 - INFO - Loaded 88 game IDs from boxscore_traditional_chunk_9.csv
+2025-07-01 10:42:43,303 - INFO - Found 1108 game IDs already processed from checkpoints.
+2025-07-01 10:42:43,303 - INFO - Fetching all game IDs for 2024-25
+2025-07-01 10:42:43,303 - INFO - Getting game IDs for season type: Regular Season
+2025-07-01 10:42:43,409 - INFO - Getting game IDs for season type: Playoffs
+2025-07-01 10:42:43,429 - INFO - Total unique games found: 1314
+2025-07-01 10:42:43,430 - INFO - Total game IDs to process: 1314
+2025-07-01 10:42:43,430 - INFO - Game IDs already processed: 1108
+2025-07-01 10:42:43,431 - INFO - Game IDs remaining to process: 206
+2025-07-01 10:42:43,431 - INFO - Sample of all_game_ids (first 5): ['0022400252', '0022400291', '0022400002', '0022400942', '0022400705']
+2025-07-01 10:42:43,431 - INFO - Sample of processed_game_ids (first 5): ['0022400962', '0022400322', '0022400252', '0022400771', '0022401098']
+2025-07-01 10:42:43,431 - INFO - Processing chunk 1/3 (100 games) of remaining game IDs.
+2025-07-01 10:42:43,456 - INFO - Fetching boxscore data for game 0022400577
+2025-07-01 10:42:47,334 - INFO - Fetching boxscore data for game 0022400399

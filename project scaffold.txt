@@ -1,0 +1,49 @@
+NBA Analytics Pipeline Project/
+│
+├── README.md                                   ← Project overview, documentation and instructions
+├── LICENSE                                     ← Respect licensing (MIT or other if inherited)
+├── CHANGELOG.md                                ← Keep track of changes and updates
+├── project scaffold.txt                        ← Project scaffold format
+├── requirements.txt                            ← Python packages (nba_api, pandas, etc.)
+├── data dictionary.xlsx                        ← Spreadsheet detailing metadata of database
+│
+├── .git/                                       ← Git version control metadata, tracks project history
+│
+├── .vscode/                                    ← Visual Studio Code settings and configuration for consistent development setup
+│   └── settings.json                           ← JSON file with settings and configuration
+│
+├── logging/
+│   └── nba_players_and_teams.log               ← Logging files for each run of player and team data ingestion
+│   └── nba_boxscore_and_shots.log              ← Logging files for each run of boxscore data ingestion
+│
+├── data_ingestion/
+│   └── __pycache__/                            ← Stores compiled bytecode files to speed up module loading
+│   └── __init__.py                             ← Marks the directory as a Python package
+│   └── config.py                               ← Contains all core functions and classes used across data ingestion aspect of project
+│   └── RUN_info.py                             ← Gather data through the NBA API for players and teams
+│   └── RUN_boxscore.py                         ← Gather data through the NBA API for 6 different types of boxscore stats
+│   └── RERUN_off_checkpoints.py                ← Rerun boxscore data based off what's been completed in checkpoint files
+│   └── appending_final_files.py                ← Append checkpoint and final boxscore data together
+│
+├── data/
+│   └── backups/                                ← Backup copies of raw and cleaned data
+│       └── raw/                                ← Backup copies of raw data
+│       └── processed/                          ← Backup copies of cleaned data
+│   └── checkpoints/                            ← Checkpoints for boxscore data kept in chunks of 100 records
+│       └── boxscore_checkpoints/               ← Boxscore chunk checkpoints
+│       └── boxscore_rerun_checkpoints/         ← Boxscore rerun chunk checkpoints
+│   └── raw/                                    ← Raw data from NBA API Endpoints downloaded locally as CSVs
+│   └── processed/                              ← Cleaned versions of raw data ready for analysis
+│   └── rerun/                                  ← Rerun boxscore data from a certain point based off checkpoints
+│
+├── data_cleaning/
+│   └── snowflake/                              ← Folder containing data cleaning scripts used in Snowflake
+│       └── Data Transformations.py             ← Script to transform data using Snowpark
+│
+├── database/
+│   └── snowflake/                              ← Folder containing data cleaning scripts used in Snowflake
+│       └── DDL Script Table Management.sql     ← DDL script for creating tables and copying data into them
+│       └── DDL Script Constraints.sql          ← DDL Script to create table relationships
+│
+├── reporting/
+│   └── NBA 2024-25 Report.pbix                 ← Power BI Report with data connected to Snowflake

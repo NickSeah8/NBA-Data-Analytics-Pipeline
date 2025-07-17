@@ -1,0 +1,6 @@
+2025-07-08 11:37:41,475 - INFO - Starting game data ingestion...
+2025-07-08 11:37:41,476 - INFO - Attempting to fetch NBA schedule for season 2024-25 with 5 retries.
+2025-07-08 11:37:41,476 - INFO - Fetching NBA schedule (Attempt 1/5)...
+2025-07-08 11:37:44,597 - INFO - Successfully fetched NBA schedule for season 2024-25.
+2025-07-08 11:37:44,662 - INFO - NBA schedule data saved to C:\Users\NicholasYu-JinSeah\OneDrive - MIP (Aust) Pty Ltd\Documents\Extra Projects\NBA Analytics Pipeline Project\data\raw\nba_schedule_2024-25.csv
+2025-07-08 11:37:44,664 - INFO - Game data ingestion complete.

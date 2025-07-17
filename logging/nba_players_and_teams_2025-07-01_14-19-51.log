@@ -1,0 +1,26 @@
+2025-07-01 14:19:51,249 - INFO - Starting the process of appending boxscore files.
+2025-07-01 14:19:51,249 - INFO - Processing boxscore type: advanced
+2025-07-01 14:19:51,252 - INFO - Found 13 checkpoint files for advanced.
+2025-07-01 14:19:51,255 - INFO - Found 1 rerun files (outside checkpoints) for advanced.
+2025-07-01 14:19:52,521 - INFO - Successfully appended and saved 14 files to C:\Users\NicholasYu-JinSeah\OneDrive - MIP (Aust) Pty Ltd\Documents\Extra Projects\NBA Analytics Pipeline Project\data\boxscore_advanced_final.csv
+2025-07-01 14:19:52,522 - INFO - Processing boxscore type: hustle
+2025-07-01 14:19:52,524 - INFO - Found 13 checkpoint files for hustle.
+2025-07-01 14:19:52,525 - INFO - Found 1 rerun files (outside checkpoints) for hustle.
+2025-07-01 14:19:53,408 - INFO - Successfully appended and saved 14 files to C:\Users\NicholasYu-JinSeah\OneDrive - MIP (Aust) Pty Ltd\Documents\Extra Projects\NBA Analytics Pipeline Project\data\boxscore_hustle_final.csv
+2025-07-01 14:19:53,408 - INFO - Processing boxscore type: playertrack
+2025-07-01 14:19:53,410 - INFO - Found 13 checkpoint files for playertrack.
+2025-07-01 14:19:53,411 - INFO - Found 1 rerun files (outside checkpoints) for playertrack.
+2025-07-01 14:19:54,322 - INFO - Successfully appended and saved 14 files to C:\Users\NicholasYu-JinSeah\OneDrive - MIP (Aust) Pty Ltd\Documents\Extra Projects\NBA Analytics Pipeline Project\data\boxscore_playertrack_final.csv
+2025-07-01 14:19:54,323 - INFO - Processing boxscore type: scoring
+2025-07-01 14:19:54,326 - INFO - Found 13 checkpoint files for scoring.
+2025-07-01 14:19:54,327 - INFO - Found 1 rerun files (outside checkpoints) for scoring.
+2025-07-01 14:19:55,445 - INFO - Successfully appended and saved 14 files to C:\Users\NicholasYu-JinSeah\OneDrive - MIP (Aust) Pty Ltd\Documents\Extra Projects\NBA Analytics Pipeline Project\data\boxscore_scoring_final.csv
+2025-07-01 14:19:55,445 - INFO - Processing boxscore type: traditional
+2025-07-01 14:19:55,447 - INFO - Found 13 checkpoint files for traditional.
+2025-07-01 14:19:55,448 - INFO - Found 1 rerun files (outside checkpoints) for traditional.
+2025-07-01 14:19:56,963 - INFO - Successfully appended and saved 14 files to C:\Users\NicholasYu-JinSeah\OneDrive - MIP (Aust) Pty Ltd\Documents\Extra Projects\NBA Analytics Pipeline Project\data\boxscore_traditional_final.csv
+2025-07-01 14:19:56,963 - INFO - Processing boxscore type: usage
+2025-07-01 14:19:56,965 - INFO - Found 13 checkpoint files for usage.
+2025-07-01 14:19:56,966 - INFO - Found 1 rerun files (outside checkpoints) for usage.
+2025-07-01 14:19:57,918 - INFO - Successfully appended and saved 14 files to C:\Users\NicholasYu-JinSeah\OneDrive - MIP (Aust) Pty Ltd\Documents\Extra Projects\NBA Analytics Pipeline Project\data\boxscore_usage_final.csv
+2025-07-01 14:19:57,918 - INFO - Finished appending all boxscore files.
