@@ -51,7 +51,7 @@ Developed with Python 3.13.1 in VSCode. Snowflake transformations executed using
 
 Source: NBA Stats API Client Package via [nba_api](https://github.com/swar/nba_api).
 
-[insert image]
+![Basketball Image](screenshots/1_3PzuXdpCqN36xa3rphw7Yg.png)
 
 The first step consists of gathering our relevant data. For this project, the focus is on gathering the data which we will then distribute into fact and dimension tables.
 
@@ -72,7 +72,7 @@ Take a moment to go through the data ingestion folder of the project. The config
 
 After the scripts are run, the raw folder in data is populated as detailed below. These are the files we will be pushing through the pipeline.
 
-[insert image - ingested files]
+![Ingested Files](screenshots/ingested%20files.png)
 
 ### Step 2: Data Storage Loading
 
@@ -82,37 +82,37 @@ I chose to use the Azure Blob Storage service to understand the Microsoft Azure 
 
 I then created my blob storage account, which is where the raw data will be ingested into. Ensure you have created the account as a StorageV2 account, or that hierarchical namespace is enabled, as this enables file/folder semantics required later for data lake functionality and operations. To further my understanding, I downloaded Azure Storage Explorer to get a feel for the UI and layout of how and where the data is stored, which can be seen below.
 
-[insert image - Azure Storage Explorer]
+![Azure Storage Explorer](screenshots/Azure%20Storage%20Explorer.png)
 
 While I could simply upload the raw data from my local machine onto the blob storage container with the click of a button, I wanted to handle the data loading process as if I was working with huge amounts of data. By downloading the AzCopy command-line utility to my terminal, I hoped to simulate what it would be like to handle the transfer of a large amount of files, as well as create automation with a single line of code able to be run whenever needed to upload a folder of files, as opposed to singular files.
 
-[insert image - AzCopy code to load data]
+![AzCopy Code to Load Data](screenshots/AzCopy%20code%20to%20load%20data.png)
 
 ### Step 3: Data Pipeline Loading
 
-[insert image - loaded data blob storage]
+![Loaded Data Blob Storage](screenshots/Loaded%20data%20blob%20storage.png)
 
 With the data now in blob storage, it's time to upload to a data lake. The image below describes the best practice flow of a data pipeline using Azure Data Factory.
 
-[insert image - ADF pipeline]
+![ADF Pipeline](screenshots/ADF%20Pipeline.png)
 
 While you can push data straight from blob storage to a SaaS (Software as a Service) or PaaS (Platform as a Service), which does require fewer steps, this results in less architectural clarity and leaves you without a secure layer of raw data for future use. Furthermore, this aligns with best practices of modern data architecture, known as the Medallion Architecture, where there is a raw ingestion layer (bronze), transformation layer (silver), and a consumption layer (gold).
 
-[insert image - lakehouse medallion architecture]
+![Lakehouse Medallion Architecture](screenshots/lakehouse-medallion-architecture.jpeg)
 
 To upload to a data lake in Azure, we need to create another blob container, but we now need to enable hierarchical namespace to ensure our next blob storage container is a ADLS Gen2 (Azure Data Lake Storage Gen2) compatible.
 
 Once this is done, we need to make an Azure Data Factory. To ensure data is moved between our two blob containers, we link them in the linked services area of the Azure Data Factory Studio. Without going into too much detail on privacy settings, you can either set account permissions for authentication and connection to the data lake, or you can generate an SAS key. For simplicity, I chose to create an SAS key.
 
-[insert image - Linked Services]
+![Linked Services](screenshots/Linked%20Services.png)
 
 From here, we now go to the author tab and create our pipeline. As we have 9 different files of different format, I used a ForEach activity to iterate over the blob dataset, with file names as an array. A copy data activity is used within the ForEach loop to push the data from blob storage to data lake. This is done since each of the files (data tables) have a different schema, and allows for easier error handling and per-file logging.
 
-[insert image - running pipeline]
+![Running Pipeline](screenshots/Running%20pipeline.png)
 
 Below is how the loaded data in the lake now looks in Azure Storage Explorer.
 
-[insert image - files in data lake]
+![Files in Data Lake](screenshots/Files%20in%20data%20lake.png)
 
 ### Step 4: Data Processing & Transformation
 
@@ -120,27 +120,27 @@ The next step is to transform the loaded data (going from the silver to gold lay
 
 To load the data in Snowflake, you need the URL of the ADLS Gen2 container, followed by the SAS token (if using this security method). Go to add data for Microsoft Azure Blob Storage and follow the prompts to create a database for your project using your ADLS Gen2 authentication. Once this is done, you should have your data files in a stage.
 
-[insert image - snowflake - raw stage]
+![Snowflake - Raw Stage](screenshots/Snowflake%20-%20raw%20stage.png)
 
 This is where you begin your database management with DDL (Data Definition Language) and DML (Data Manipulation Language) queries to create and fill your data tables. 
 
-[insert image - creating tables]
+![Snowflake - Creating Tables](screenshots/Snowflake%20-%20creating%20tables.png)
 
 Additionally, you will need to use Snowflake's Snowpark feature to use Python for the data transformations. Snowpark is a framework designed for languages such as Python to be used within Snowflake. While the full scripts for the SQL queries can be found in the database folder, and the Python script can be found in the data cleaning folder, the screenshots below provide a glimpse of the process within the Snowflake UI, and the finalized tables.
 
-[insert image - Snowflake - python transformations]
+![Snowflake - Python Transformations](screenshots/Snowflake%20-%20Python%20transformations.png)
 
-[insert image - Snowflake - creating primary and foreign keys]
+![Snowflake - Creating Primary and Foreign Keys](screenshots/Snowflake%20-%20creating%20primary%20and%20foreign%20keys.png)
 
 ### Step 5: Data Storage (Processed Layer)
 
-[insert image - Snowflake - transformations and processed tables]
+![Snowflake - Transformations and Processed Tables](screenshots/Snowflake%20-%20transformations%20and%20processed%20tables.png)
 
 Above is how the finished tables will look once the data is all loaded and transformed into processed tables, followed by the DDL queries to create the primary and foreign keys. These tables in Snowflake is now your gold layer data warehouse, which is ready for DQL (Data Query Language) querying and reporting level analysis.
 
 ### Step 6: Data Reporting
 
-[insert image - loading data from Snowflake into Power BI]
+![Loading Data From Snowflake into Power BI](screenshots/Loading%20data%20from%20Snowflake%20into%20PowerBI.png)
 
 The final step is to now perform reporting analysis on the cleaned data. Snowflake has connectors with various softwares, and Microsoft Power BI is no exception. All you need to do is select get data in Power BI and input your server and warehouse details when prompted.
 
@@ -152,7 +152,7 @@ You can now build a report and find insights within the data.
 
 Now that we're connected, if we think back to the idea of our data being in a constellation schema, we can now see it visually in Power BI using its' model view feature. Below is how the tables relate to each other visually (use the data dictionary.xlsx file to supplement your understanding of column relationships).
 
-[insert image - relationships in Power BI]
+![Relationships in Power BI](screenshots/Relationships%20in%20PowerBI.png)
 
 We can see that the model looks a little messy compared to a typical star schema. There are some key differences in our Power BI model compared to the gold layer reporting schema, such as key columns added for visuals (Full Name, Name + ID and Headshot URL in Players table, and Team Logo URL for Teams table), as well as the creation of a date table based off the range of dates from the Schedule_Processed_2024_25 table, since date tables are extremely important when using time intelligence functions in Power BI. Parameters for changing measures visualized in graphs were also created and are shown in the model.
 
@@ -163,8 +163,7 @@ Another thing to keep in mind is that Power BI does not support composite keys. 
 
 The main goal for our reporting stage was to provide any quick and actionable insights based off NBA player and team data, as well as to create an aesthetically pleasing and sensible dashboard with the wide range of features and tools in Power BI.
 
-[insert image - Reporting Dashboard (1)]
-Dashboard Image 1
+![Dashboard Image 1](screenshots/Reporting%20Dashboard%20(1).png)
 
 The image above shows the main page of the report. There are a number of key metrics placed as cards above the bar chart on the left and the scatter plot on the right.
 
@@ -172,26 +171,21 @@ The bar chart can be selected to filter some of the key metrics to that particul
 
 You can also hold the mouse over the bar to see the net, offensive, and defensive ratings of the player in the tooltip. Finally, there is a dropdown box to choose what measure to see on the bar chart (based off some of the main traditional stats). These can be seen in dashboard images 2 and 3.
 
-[insert image - Reporting Dashboard (2)]
-Dashboard Image 2
+![Dashboard Image 2](screenshots/Reporting%20Dashboard%20(2).png)
 
-[insert image - Reporting Dashboard (3)]
-Dashboard Image 3
+![Dashboard Image 3](screenshots/Reporting%20Dashboard%20(3).png)
 
 The scatter plot lists all 30 NBA teams based on their average offensive and defensive ratings for the season. Fitting that we can see OKC (the team who won the 2024-25 NBA championship) has the best defensive rating while also being top 3 in offensive rating, which actually gives them the best net rating. 
 
 When you select a team's point, the bar chart and key metrics filters for that particular team. You can also hover over the point to see the team's ratings in the tooltip just like the bar chart.
 
-[insert image - Reporting Dashboard (4)]
-Dashboard Image 4
+![Dashboard Image 4](screenshots/Reporting%20Dashboard%20(4).png)
 
 When you right click on a player in the bar chart, there is an option to drill through to another page. This page shows that particular player's rankings among the traditional stats on the bottom left, as well as a number of key advanced statistics on cards. There is also a pie chart that shows either the distribution percentage of field goal attempts across 2-point and 3-point attempts, or the distribution of points across 2-pointers, 3-pointers, and free throws. Finally, the line chart shows the running total of the traditional stats across the season.
 
-[insert image - Reporting Dashboard (5)]
-Dashboard Image 5
+![Dashboard Image 5](screenshots/Reporting%20Dashboard%20(5).png)
 
-[insert image - Reporting Dashboard (6)]
-Dashboard Image 6
+![Dashboard Image 6](screenshots/Reporting%20Dashboard%20(6).png)
 
 ## 💭 Final Thoughts
 
