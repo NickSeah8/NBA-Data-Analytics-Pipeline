@@ -7,6 +7,8 @@ NBA Analytics Pipeline Project/
 ├── requirements.txt                            ← Python packages (nba_api, pandas, etc.)
 ├── data dictionary.xlsx                        ← Spreadsheet detailing metadata of database
 │
+├── screenshots/                                ← Folder with screenshots of pipeline process
+│
 ├── .git/                                       ← Git version control metadata, tracks project history
 │
 ├── .vscode/                                    ← Visual Studio Code settings and configuration for consistent development setup
