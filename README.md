@@ -1,23 +1,25 @@
 # 🏀 NBA Data Analytics Pipeline
 
-## 🚀 Mission Statement 
+![NBA Logo](screenshots/nba-logo_2x.png)
 
-This project is an end-to-end data analytics pipeline built around publicly available NBA player and game data. It is designed to simulate an enterprise-grade ETL/ELT architecture and demonstrate the skills of ingestion, transformation, and consumption layers that follow the best practices of modern data engineering and cloud capabilities.
+## Mission Statement 
 
-## 🎯 Goals of the Project
+This project is an end-to-end data analytics pipeline built around publicly available NBA player and game data. It is designed to simulate an enterprise-grade ETL/ELT architecture that follows the best practices of data engineering using cloud systems, and demonstrates the skills of ingestion, transformation, and using consumption layers to facilitate the final data reporting stage.
+
+## Goals of the Project
 
 The goal was to consolidate my knowledge of data pipelines and the end-to-end data process using an area of personal interest. I particularly enjoy playing and watching sport, and it's this reason that I chose to ingest NBA data via the 'nba_api' client package, which [@swar](https://github.com/swar) compiled to utilize publicly available data the NBA provides.
 
 After the data ingestion stage, the three main goals were to:
 * Store the data in a structured cloud database
-* Transform it for advanced analytical queries and store it in a big data capacity with relevant schema for querying
+* Transform and store it in a big data capacity with relevant schema and have it available for querying
 * Visualize key metrics and showcase dashboarding capability of database
 
-By demonstrating the clear separation of data ingestion, transformation, and consumption layers, I hope to deepen both my own and the reader's understanding of data pipelines and ETL/ELT processes through engaging and relatable data (at least for sports fans)
+By demonstrating the clear separation of data ingestion, transformation, and consumption layers (based around the principles of a Medallion Architecture), I hope to deepen both my own and the reader's understanding of data pipelines and ETL/ELT processes through engaging and relatable data (at least for sports fans)
 
 Finally, I used different platforms at different stages of the project to broaden my knowledge of various cloud services and expand my insight and grasp on the capabilities and best practices of modern data analysis and storage architecture.
 
-## 🎓 Prerequisites
+## Prerequisites
 If you wish to replicate the cloud components of this project, please ensure you have the following:
 * Environment variables/secrets set up
     * Azure Storage account keys or service principal for data lake access
@@ -28,7 +30,7 @@ If you wish to replicate the cloud components of this project, please ensure you
     * Main one is to install nba_api by running pip install nba_api
     * Other relevant packages can be found in relevant local scripts found in 'data ingestion' folder
 
-## 🔧 Tech Stack
+## Tech Stack
 
 * Programming: Python, SQL
 * Cloud Storage & Data Warehouse: Azure (Data Lake Storage, Blob Storage, Data Factory), Snowflake
@@ -36,7 +38,7 @@ If you wish to replicate the cloud components of this project, please ensure you
 * Visualisation: Power BI
 * Version Control & Documentation: GitHub with structured README and notebooks
 
-## 📝 Pipeline Workflow Steps
+## Pipeline Workflow Steps
 
 ### Overall Architecture Flow
 **Local Python Scripts** (Bronze ➔ Raw) ➔ **Azure Blob Storage** ➔ **ADLS Gen2** (Silver ➔ Processed) ➔ **Snowflake** (Gold ➔ Curated Warehouse) ➔ **Power BI** (Consumption)
@@ -195,7 +197,7 @@ We are able to see the way data is gathered (in this case, via a Python API clie
 
 While there are limitations in crafting a pipeline example, such as having to use trial accounts for cloud services, hopefully this project has helped whoever is reading this to improve their understanding of data pipelines and the process of devising a full end-to-end data solution.
 
-## 🌱 Future Improvements
+## Future Improvements
 
 * Edit dashboard visualization and find more insights from the data + add a team analysis and comparison section
 * Set up Power BI scheduled data refresh trigger (only available on Power BI Service)
@@ -205,14 +207,14 @@ While there are limitations in crafting a pipeline example, such as having to us
 * Integrate dbt for SQL-based transformations and data lineage tracking
 * Build a monitoring dashboard for pipeline runs and performance
 
-## 👤 Author & Contact
+## Author & Contact
 
 **Nicholas Seah**
 * GitHub: [NickSeah8](https://github.com/NickSeah8)
 * LinkedIn: [Nicholas Seah](https://www.linkedin.com/in/nicholas-seah8/)
 * Email: nseah8@gmail.com
 
-## 📡 Data Source & Attribution
+## Data Source & Attribution
 
 NBA data is accessed using the [nba_api](https://pypi.org/project/nba_api/1.1.5/) package, developed by [@swar](https://github.com/swar). Licensed under MIT.
 
