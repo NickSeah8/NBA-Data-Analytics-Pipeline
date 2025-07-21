@@ -9,8 +9,6 @@ NBA Analytics Pipeline Project/
 │
 ├── screenshots/                                ← Folder with screenshots of pipeline process
 │
-├── .git/                                       ← Git version control metadata, tracks project history
-│
 ├── .vscode/                                    ← Visual Studio Code settings and configuration for consistent development setup
 │   └── settings.json                           ← JSON file with settings and configuration
 │
