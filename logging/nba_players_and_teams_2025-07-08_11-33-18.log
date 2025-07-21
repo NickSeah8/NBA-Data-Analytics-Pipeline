@@ -1,6 +1,0 @@
-2025-07-08 11:33:18,485 - INFO - Starting game data ingestion...
-2025-07-08 11:33:18,487 - INFO - Attempting to fetch NBA schedule for season ('2024-25', ['Regular Season', 'Playoffs']) with 5 retries.
-2025-07-08 11:33:18,488 - INFO - Fetching NBA schedule (Attempt 1/5)...
-2025-07-08 11:33:23,405 - INFO - Successfully fetched NBA schedule for season ('2024-25', ['Regular Season', 'Playoffs']).
-2025-07-08 11:33:23,490 - INFO - NBA schedule data saved to C:\Users\NicholasYu-JinSeah\OneDrive - MIP (Aust) Pty Ltd\Documents\Extra Projects\NBA Analytics Pipeline Project\data\raw\nba_schedule_('2024-25', ['Regular Season', 'Playoffs']).csv
-2025-07-08 11:33:23,491 - INFO - Game data ingestion complete.

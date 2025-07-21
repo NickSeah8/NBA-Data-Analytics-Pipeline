@@ -6,8 +6,9 @@ NBA Analytics Pipeline Project/
 ├── project scaffold.txt                        ← Project scaffold format
 ├── requirements.txt                            ← Python packages (nba_api, pandas, etc.)
 ├── data dictionary.xlsx                        ← Spreadsheet detailing metadata of database
+├── .gitignore                                  ← Specifies files and folders for Git to ignore
 │
-├── screenshots/                                ← Folder with screenshots of pipeline process
+├── .git/                                       ← Git version control metadata, tracks project history
 │
 ├── .vscode/                                    ← Visual Studio Code settings and configuration for consistent development setup
 │   └── settings.json                           ← JSON file with settings and configuration
@@ -26,14 +27,10 @@ NBA Analytics Pipeline Project/
 │   └── appending_final_files.py                ← Append checkpoint and final boxscore data together
 │
 ├── data/
-│   └── backups/                                ← Backup copies of raw and cleaned data
-│       └── raw/                                ← Backup copies of raw data
-│       └── processed/                          ← Backup copies of cleaned data
 │   └── checkpoints/                            ← Checkpoints for boxscore data kept in chunks of 100 records
 │       └── boxscore_checkpoints/               ← Boxscore chunk checkpoints
 │       └── boxscore_rerun_checkpoints/         ← Boxscore rerun chunk checkpoints
 │   └── raw/                                    ← Raw data from NBA API Endpoints downloaded locally as CSVs
-│   └── processed/                              ← Cleaned versions of raw data ready for analysis
 │   └── rerun/                                  ← Rerun boxscore data from a certain point based off checkpoints
 │
 ├── data_cleaning/
