@@ -6,16 +6,11 @@ NBA Analytics Pipeline Project/
 ├── project scaffold.txt                        ← Project scaffold format
 ├── requirements.txt                            ← Python packages (nba_api, pandas, etc.)
 ├── data dictionary.xlsx                        ← Spreadsheet detailing metadata of database
-├── .gitignore                                  ← Specifies files and folders for Git to ignore
-│
-├── .git/                                       ← Git version control metadata, tracks project history
 │
 ├── .vscode/                                    ← Visual Studio Code settings and configuration for consistent development setup
 │   └── settings.json                           ← JSON file with settings and configuration
 │
-├── logging/
-│   └── nba_players_and_teams.log               ← Logging files for each run of player and team data ingestion
-│   └── nba_boxscore_and_shots.log              ← Logging files for each run of boxscore data ingestion
+├── logging/                                    ← Logging files for each run of data ingestion
 │
 ├── data_ingestion/
 │   └── __pycache__/                            ← Stores compiled bytecode files to speed up module loading
@@ -33,12 +28,10 @@ NBA Analytics Pipeline Project/
 │   └── raw/                                    ← Raw data from NBA API Endpoints downloaded locally as CSVs
 │   └── rerun/                                  ← Rerun boxscore data from a certain point based off checkpoints
 │
-├── data_cleaning/
-│   └── snowflake/                              ← Folder containing data cleaning scripts used in Snowflake
+├── data_cleaning/                              ← Folder containing data cleaning scripts used in Snowflake                          
 │       └── Data Transformations.py             ← Script to transform data using Snowpark
 │
-├── database/
-│   └── snowflake/                              ← Folder containing data cleaning scripts used in Snowflake
+├── database/                                   ← Folder containing data cleaning scripts used in Snowflake
 │       └── DDL Script Table Management.sql     ← DDL script for creating tables and copying data into them
 │       └── DDL Script Constraints.sql          ← DDL Script to create table relationships
 │
